@@ -1,6 +1,6 @@
-* Last name:
-* First name:
-* Github username:
+* Last name: Tsun
+* First name: Peter
+* Github username: petertsun
 
 * Instructions:
 
