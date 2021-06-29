@@ -1,0 +1,8 @@
+
+
+1. No, I wug.You wugga wug.I wug.
+
+2. main() --> zoop() --> baffle() --> ping()
+
+3. ping calls baffle, but then baffle calls ping, which then in turns calls baffle. The program will never finish
+   becasue they will keep calling each other.
