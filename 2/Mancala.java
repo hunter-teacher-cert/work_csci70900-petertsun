@@ -1,3 +1,9 @@
+/*
+ * Chris O'Brien, Eduardo Leite, Peter Tsun
+ */
+
+// This is a computer version of a game called Mancala
+
 import java.io.*;
 import java.util.*;
 
