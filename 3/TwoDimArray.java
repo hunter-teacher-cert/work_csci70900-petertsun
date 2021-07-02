@@ -1,3 +1,4 @@
+// Brian Mueller, Emma Wingreen, Peter Tsun
 /** skeleton file for
  class twoDimArray
   ...practice working with 2D arrays
@@ -60,7 +61,7 @@ public class TwoDimArray
       sum += column;
     }    //Return running total
     return sum;
-  } 
+  }
   public static void main( String [] args )
   {       int [][] m1 = new int[4][2];
        int [][] m2 = { {2,4,6}, {3,5,7} };
