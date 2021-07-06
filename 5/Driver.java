@@ -1,8 +1,8 @@
 /*
  * Team 1
- * Peter Tsun
  * Chaouiki H.
  * Eric Liu
+ * Peter Tsun
  *     instantiate a newly-created Time object (aka "instance of class Time") with default value(s)
     instantiate a newly-created Time object with specified value(s)
     assign a Time var the value null
