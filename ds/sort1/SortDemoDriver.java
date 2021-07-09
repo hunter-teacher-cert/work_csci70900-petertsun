@@ -29,6 +29,7 @@ public class SortDemoDriver {
     System.out.println(sd);
     sd.sort();
     System.out.println(sd);
+    System.out.println(sd.binarySearch(5));
 
   }
 }

@@ -114,16 +114,29 @@ public class SortDemo{
     // loop through the ArrayList data
     // and if the value you're searchign for is in the ArrayList, return it.
     // return -1 if it isn't there.
+    int i = 0;
+    boolean valueInArrayList= false;
 
+    for (i = 0; i < data.size(); i++) {
+      if (data.get(i) == value) {
+        valueInArrayList = true;
+      } else {
+        continue;
+      }
+    }
+    if (valueInArrayList) {
+      return value;
+    } else{
+      return -1;
+    }
 
-    return 0; // replace this return
   }
 
   /* If you finish the lab early you can get started on this */
   public int binarySearch(int value){
     boolean replacethiswithrealexpression=false;
     int lowerIndex = 0;
-    int upperIndex = data.size();
+    int upperIndex = data.size() - 1;
     int middleIndex = data.size()/2;
 
     /* if upper crosses lower it's not there and the lop should exit the loop
@@ -132,13 +145,22 @@ public class SortDemo{
     you have to replace the "replacethiswithrealexpression" boolean
     with a correct expression based on lowerIndex and upperIndex
     */
-    while (replacethiswithrealexpression)
+
+    while (lowerIndex <= upperIndex)
     {
       // update lower and upper.
       // remember if value is less than data.get(middleIndex) you want to search next time
       // from lower to the middle and otherwise from the middle to the upper.
       //
       // then update middleIndex based on new lowerIndex and upperIndex.
+      if (value < data.get(middleIndex)) {
+        upperIndex = middleIndex -1;
+      } else if (value > data.get(middleIndex)) {
+        lowerIndex = middleIndex + 1;
+      } else { // value == data.get(middleIndex)
+        return value;
+      }
+      middleIndex = (upperIndex + lowerIndex)/2;
 
     }
 
@@ -146,7 +168,7 @@ public class SortDemo{
     if upperIndex and lowerIndex crossed
     */
 
-    return 0; // replace this return
+    return -1; //  return -1 since the value cannot be found
   }
 
 
