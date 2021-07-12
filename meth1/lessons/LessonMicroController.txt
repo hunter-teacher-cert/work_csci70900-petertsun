@@ -1,0 +1,62 @@
+Aim: How do we explain the word digital with a live demonstration?
+
+Intro:
+We hear people talk about digital literacy. You may have heard that
+digital camera has mostly displaced film camera from the market. Nowaday,
+one would be hard-pressed to find a place where a film can be developed.
+The term digital technology is used frequently, but what does the word digital mean?
+
+Quick Turn & Talk:
+What do you think digital is? Possible suggestiosn:
+digital means advanced technology, computer, electronics.
+
+Today we will examine the meaning of digital with an example from arduino.
+As we look at arduino and computer programming, we do so with the focus on
+understanding meaning of digital with a concrete example.
+
+We will go to www.tinkercad.com to create a new circuit. Click on Circuits button on the left side.
+In the new circuit page, click on Components Basic button to open Starter Arduino.
+In the Arduino examples, choose the Blink example.
+
+Click on Code and then click on text.
+
+In any arduino program, there are two sections, just like an essay having three paragraphs.
+In the first section called Setup(), the Arduino microcoontroller will carry out the
+instruction in the setup at the beginning. After the setup's instructions have been carried out,
+the Arduino microcontroller will perform the instructions in the loop() repeatedly.
+
+In this example, Setup() has only one instruction, which informs Arduino to use pin 13 as an output pin.
+Arduino uses output pin to send information to the outside world. In the loop() section, you see
+that digitalWrite() function turns on the LED by setting the digital pin 13 HIGH (which means 1).
+delay(1000); instruction tells the Arduino to not do anything new for 1000 millisecond which is
+also 1 second. The next two instructions tell Arduino to turn off the LED by setting the digital pin 13 LOW (which
+means 0) and again do nothing new for one second. The arduino will repeat this block of instruction indefinitely.
+Click on Start Simulate button to run the computer program on the arduino microcontroller.
+
+Q for you to consider in your small group: How does the blink example in Arduino demonstrate digital physically?
+
+After a small group discussion, have students share their thoughts on how Arduino example shows what digital means.
+
+Q: Things students can tinker with is how to change duration of delays.
+Extension: possible science experiment on human sensory capability.
+
+Activity: Use the blink as an example, students use the template to build their copy of blink program.
+Extension: They can also make a variation of blink program.
+
+Activity (med level): For deeper understanding, examine how a breadboard connects various sockets (holes)?
+
+Q (advanced level): For advanced students, build an actual physical arduino that does the same thing as the blink example
+   shown in tinkercad.com
+
+Summary:
+
+Ask groups to share their products from their activities.
+
+When people talk about digital technology, what does the word digital really means?
+Can you explain how Today's computer programming illustrates the meaning of digital in a physical way?
+
+
+
+
+
+
