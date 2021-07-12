@@ -170,6 +170,33 @@ public class SortDemo{
 
     return -1; //  return -1 since the value cannot be found
   }
+  public int binarySearchRecursive(int value, int left, int right) {
+    int result = -1;
+
+    if (left > right) {
+      return -1;
+    }
+    int mid = left + (right - left) / 2;
+
+    if ( data.get(mid) > value) {
+      result = binarySearchRecursive(value, left, mid - 1);
+    } else if (data.get(mid) < value) {
+      result = binarySearchRecursive(value, mid + 1, right);
+    } else if (data.get(mid) == value) {
+      result = value;
+    }
+    if (left > right) {
+      result = -1;
+    }
+    return result;
+
+  }
+
+  public int binarySearchRecursive(int value) {
+
+    return binarySearchRecursive(value, 0, data.size() - 1);
+
+  }
 
 
   public String toString(){
