@@ -1,0 +1,52 @@
+## Lesson objective: Students can explain conditional statements and
+                     evaluation of a logic statement.
+
+### Aim: How do we explain conditional statement?
+
+### Warm up
+time: 10 minutes
+Assign students to groups of three or two students. Ask them to
+sketch a pseudo program that uses System.out.println to display
+information and ScannerObject's method to get input from the user.
+Q: How similar are the pseudo codes written by different groups?
+They would notice that their programs follow a linear progression.
+---
+
+### Lesson Content
+time: 15 minutes
+
+1. Logic statements - an expression that is evaluated to be either true or false
+a) greater than, less than, equal to, and, or, not
+b) x > y. Say x = 10, y = 8. Statement is true. But, say x = 7 and y = 8
+   the statement is not true (we say false).
+c) If (logical expression) then do this (when expression is true) else
+   do that (when expression is false)
+d) That was pseudocode, the real syntax is if (logic statement) { do this} else
+                                           {do that}
+
+example: int x = 9, y = 20;
+if (x > y) { print("x is greater than y")} else { print(" x is not greater than y")}
+
+---
+
+### Lesson Activity
+time: 15 minutes
+Write a conditional statement that decides whether the student's
+numerical grade is passing or failing.
+
+Write a logic expression that asks if a number is within a range of numbers
+(say 0 to 100).
+
+Write a nested if statement that determines whether a number is greater than,
+less than, or equal to a constant number (say 0). - challenge question
+
+Students work together in a group to do one of the three exercises.
+Check their progress with their responses on slack channel.
+---
+
+### Closing
+time: 10 minutes
+Students showed their programs to the class and explain
+their programs in plain English.
+
+---
