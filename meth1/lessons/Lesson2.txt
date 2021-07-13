@@ -1,0 +1,69 @@
+/*
+  Goal: build a program that calculates factorial
+        and asks a user to enter the value and then prints out
+        the factorial of the value
+*/
+
+Questions for students
+Q: Do you want to calculate factorial by showing the math work in main()
+   or do you want to calculate factorial in a separate method? Explain.
+
+Q: Why is it advantageous to do them separately  in main() and fib() method?
+
+// Build a program that gets the user's input value
+// This code is in file FactorialDriver.java
+
+public class FactorialDriver {
+  public static void main(string args[]) {
+
+    int n = 0;
+    Scanner UserInput = new Scanner(System.in);
+
+    System.out.print("To calculate the factorial of a number, ");
+    System.out.println("enter the number. Number must be a non-negative integer");
+    n = UserInput.nextInt();
+
+    System.out.println("User inputs " + n);
+  }
+
+}
+
+Next step:
+
+Q: What is one subgoal in this program?
+
+Q for students: How do you determine the terminating condition?
+How do you know the loop should end when i < (n + 1)?
+
+
+// Build a program that gets the user's input value
+// This code is in file FactorialDriver.java
+
+import java.util.*;
+
+public class FactorialDriver {
+
+  public static int factorial(int n) {
+    int i = 0; // index
+    int product = 1; // if n = 0, product is defaulted to be one. 0! = 1
+
+    for (i = 1; i < n + 1; i++) {
+      product = product * i;
+    }
+    return product;
+  }
+
+
+  public static void main(String args[]) {
+
+    int n = 0;
+    Scanner UserInput = new Scanner(System.in);
+
+    System.out.println("To calculate the factorial of a number, ");
+    System.out.println("enter the number.\n(Number must be a non-negative integer)");
+    n = UserInput.nextInt();
+
+    System.out.println("Factorial " + n + "! = " + factorial(n) );
+  }
+
+}
