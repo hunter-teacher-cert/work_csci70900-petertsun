@@ -70,7 +70,14 @@ public class Driver{
      testLinkedList.addFront("Tommy");
      testLinkedList.addFront("Sammy");
      testLinkedList.addFront("Amy");
-     System.out.println(testLinkedList.toString());
+     System.out.println(testLinkedList);
+     testLinkedList.insert(1, "Denny");
+     testLinkedList.insert(0, "Vinny");
+
+     System.out.println(testLinkedList.search("Tommy"));
+
+
+     System.out.println(testLinkedList);
 
 
 
