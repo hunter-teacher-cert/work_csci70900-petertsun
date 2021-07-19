@@ -1,0 +1,7 @@
+NetLogo allows people to do animation and draw graphs.
+First, we will draw a circle in the center of a screen.
+Then, we will do an animation of the circle moving to the right.
+
+Students can do a group activity of animating the circle going to the top.
+Also, we will reconvene to discuss how they did it, and together animate
+the circle bouncing off the edge.
