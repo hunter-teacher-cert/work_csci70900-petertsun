@@ -207,6 +207,21 @@ public class SortDemo{
 
   /*------------------------- MERGESORT STUFF -----------------*/
 
+  public ArrayList<Integer> mergeSort(ArrayList<Integer> inputList){
+    int lenList = inputList.size();
+    if (lenList == 1 || lenList == 0){    // base case
+      return inputList; // since a one-item array is sorted
+    } else {
+      ArrayList<Integer> leftList = new ArrayList<Integer>(inputList.subList(0, lenList/2));
+      //System.out.println(leftList);
+      ArrayList<Integer> rightList = new ArrayList<Integer>(inputList.subList(lenList/2, lenList));
+      //System.out.println(rightList);
+      //mergeSort( merge(inputList.subList(0,lenList/2), inputList.subList((lenList/2) + 1, lenList)) );
+      return merge(mergeSort(leftList), mergeSort(rightList));
+    }
+
+  }
+
 
   // Preconditions: a and b are ArrayLists of Integers and
   //                both are in increasing order
@@ -228,7 +243,7 @@ public class SortDemo{
           newArrayList.add(b.get(iB));
           iB++;
         }
-    } else if (iA < lenA &&  iB >= lenB) {  //b exhausted first
+      } else if (iA < lenA &&  iB >= lenB) {  //b exhausted first
           newArrayList.add(a.get(iA));
           iA++;
       } else if (iA >= lenA && iB < lenB){  //a is exhausted first
@@ -240,8 +255,8 @@ public class SortDemo{
     return newArrayList;
   }
 
-
-/*  private ArrayList<Integer> merge(ArrayList<Integer> a, ArrayList<Integer> b){
+/*
+  private ArrayList<Integer> merge_v2(ArrayList<Integer> a, ArrayList<Integer> b){
     int indexA = 0;
     int indexB = 0;
     int lengthA = a.size();
@@ -256,18 +271,19 @@ public class SortDemo{
           mergedList.add(b.get(indexB));
           indexB = indexB + 1;
         }
-
       } else if (indexA < lengthA && indexB >= lengthB) { // B is done
           mergedList.add(a.get(indexA));
           indexA = indexA + 1;
-      } else if (indexA >= lengthA && indexB < lengthB){
+      } else if (indexA >= lengthA && indexB < lengthB){    // a is done
           mergedList.add(b.get(indexB));
           indexB = indexB + 1;
+      } else {
+          System.out.println( "should never get here");
       }
 
     }
 
-    return a;
+    return mergedList;
   }
 */
 
@@ -281,18 +297,36 @@ public class SortDemo{
     return a;
 
   }
+
+  private ArrayList<Integer> fillForMergeSort(int size){
+    ArrayList<Integer> a = new ArrayList<Integer>();
+    int lastVal = r.nextInt(30);
+    for (int i = 0 ; i < size ; i=i+1){
+      a.add(lastVal);
+      lastVal =  r.nextInt(30);
+    }
+    return a;
+
+  }
+
   public void testMerge(){
 
     ArrayList<Integer> a = new ArrayList<Integer>();
     ArrayList<Integer> b = new ArrayList<Integer>();
     ArrayList<Integer> c = new ArrayList<Integer>();
-
+    ArrayList<Integer> d = new ArrayList<Integer>();
+/*
     a = fillForMerge(3);
     b = fillForMerge(5);
     System.out.println(a);
     System.out.println(b);
     c = merge(a, b);
     System.out.println(c);
+    */
+    d = fillForMergeSort(10);
+    System.out.println(d);
+    System.out.println(mergeSort(d));
+
   }
 
 }
