@@ -115,6 +115,7 @@ Students work in their group to calculate a slightly larger n, like factorial(4)
 Each student acts as a copy of the method factorial(n).
 
 ## Closing  
+Time: 5 minutes  
 Students or teacher included can act out how a factorial(n) can calculate n!
 The size of n depends on the amount of time left. The less time remaining the smaller the n for the closing example.
  * Check in with students by using analog feedback to describe how well they can
