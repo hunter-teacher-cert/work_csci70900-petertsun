@@ -60,7 +60,7 @@ the punishment sentences were written 20 times (count 0 to 19, that is 20 times)
 ## Lesson Activity  
 Time: 15 minutes  
 Instead of writing a code at a terminal. Let's use our bodies as computers.
-Teacher and students use Key-to-Success (scrap paper) to write down the following code/instruction
+Teacher and students use Key-to-Success (scrap paper) to write down the following code/instruction.
 Teacher acts as student A who writes a while loop to give instruction for student B to carry out.
 
 ```
@@ -81,8 +81,8 @@ Students take turn to be A and B. Student A writes a while loop on a Key-to-Succ
 ## Closing  
 Time: 10 minutes  
 Students can demonstrate their dance moves based on written instruction in the form of pseudocode. As they perform their dance moves, they verbalize or have someone else narrate their movements according to the while loop commands.
- * Teacher asks students analog feedback on if they can read while loop
- * Teacher asks students analog feedback on if they can implement while loop
+ * Teacher asks students for analog feedback on if they can read while loop
+ * Teacher asks students for analog feedback on if they can implement while loop
 
 ## Feedback  
 Time: 0 minutes - Homework  
