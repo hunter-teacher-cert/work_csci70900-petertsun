@@ -36,7 +36,7 @@ Time: 10 minutes
 Say you did something your teacher did not like. The teacher punished you
 by requiring you to write "I will not do this ever again" 20 times.
 However, you don't want to write that, yet you don't want to rebel against your teacher. Why not ask the computer to write it for you?
-You can asked the computer to print out a sentence. How do we ask
+You can ask the computer to print out a sentence. How do we ask
 the computer to do it repeatedly?
 `System.out.println("I will not do this ever again. ");`
 
