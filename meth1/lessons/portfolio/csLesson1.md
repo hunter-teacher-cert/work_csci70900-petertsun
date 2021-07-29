@@ -74,7 +74,7 @@ while (count < 2) {
 }
 ```
 Then, teacher act out student B. Follow the direction. keep track of count. Before the loop, count is 0. test is passed. boolean expression is evaluated to be true, raise left, then right arm, put down right, then left arm. Update the count to 1. 1 is less than 2, do the whole dance routine again. Now, count becomes 2. When student B (as a computer) checks 2 < 2, the test fails because the boolean expression is evaluated to be false, student B exits the loop.
- * Teacher asks students analog feedback on if they know what to do.
+ * Teacher asks students for analog feedback on if they know what to do.
 
 Students take turn to be A and B. Student A writes a while loop on a Key-to-Success that asks the dancer to repeat dance routine for a number of times. Student B reads the while loop instruction and carries out the dance moves according to the written instruction.
 
