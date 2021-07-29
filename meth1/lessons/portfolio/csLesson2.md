@@ -111,6 +111,8 @@ Carry out the instruction in the if block. return 1 to the calling function
 which is student B. The rest of the program is skipped because the program exits to return inside the if block before the program has a chance to carry out the rest
 of the instructions in the method of factorial(n). Student B multiplies 2 to 1, and returns result of 2 to Student A, who in turns multiplies 3 to 2, and returns the final answer of 6.
 
+Students use their Key-to-Success (scrap paper) to draw a tree diagram to trace
+method calls (program progression).
 Students work in their group to calculate a slightly larger n, like factorial(4).
 Each student acts as a copy of the method factorial(n).
 
@@ -120,3 +122,12 @@ Students or teacher included can act out how a factorial(n) can calculate n!
 The size of n depends on the amount of time left. The less time remaining the smaller the n for the closing example.
  * Check in with students by using analog feedback to describe how well they can
    explain recursion example of factorial.   
+
+## Explanation
+The lesson is designed for students who have no experience in computer science or computer programming
+but are taking AP computer science A.
+The lesson gives students an opportunity to sketch a tree diagram to trace program progression.
+Students can use Key-To-Success to help them trace the program progression. They can also used
+manipulatives like post-its, where post-it represents a function call in a recursive algorithm.
+They also use their analog feedback (thumb) to let teacher know their own assessment of their
+comprehension.

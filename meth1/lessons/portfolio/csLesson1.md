@@ -60,6 +60,7 @@ the punishment sentences were written 20 times (count 0 to 19, that is 20 times)
 ## Lesson Activity  
 Time: 15 minutes  
 Instead of writing a code at a terminal. Let's use our bodies as computers.
+Teacher and students use Key-to-Success (scrap paper) to write down the following code/instruction
 Teacher acts as student A who writes a while loop to give instruction for student B to carry out.
 
 ```
@@ -75,7 +76,7 @@ while (count < 2) {
 Then, teacher act out student B. Follow the direction. keep track of count. Before the loop, count is 0. test is passed. boolean expression is evaluated to be true, raise left, then right arm, put down right, then left arm. Update the count to 1. 1 is less than 2, do the whole dance routine again. Now, count becomes 2. When student B (as a computer) checks 2 < 2, the test fails because the boolean expression is evaluated to be false, student B exits the loop.
  * Teacher asks students analog feedback on if they know what to do.
 
-Students take turn to be A and B. Student A writes a while loop that asks the dancer to repeat dance routine for a number of times. Student B reads the while loop instruction and carries out the dance moves according to the written instruction.
+Students take turn to be A and B. Student A writes a while loop on a Key-to-Success that asks the dancer to repeat dance routine for a number of times. Student B reads the while loop instruction and carries out the dance moves according to the written instruction.
 
 ## Closing  
 Time: 10 minutes  
@@ -87,3 +88,13 @@ Students can demonstrate their dance moves based on written instruction in the f
 Time: 0 minutes - Homework  
  Teacher asks students to evaluate if the dance moves help them
  understand while loop. Students can give feedback by ranking the activity and instruction from 1 to 10 with 10 being the best. Students can also give a brief written or verbal feedback on what parts of the lesson works or does not work for them.
+
+## Explanation
+The lesson is designed for students who do not have experience in computer science or computer programming
+yet they are taking AP computer science A.
+The lesson uses kinesthetic learning in this unplugged activity, where there is no need for using computer
+in this lesson. Students use Key-To-Success to help them trace the program progression. They also use
+their analog feedback (thumb) to indicate their own assessment of their learning. If they understand
+the concept, they give thumb up. If they don't understand, they give their thumb down. If they have
+some understanding of the concept, they give a sideway thumb. Teacher can then use the analog
+feedbacks to assign groups where students with thumbs up work with students with thumbs down.
