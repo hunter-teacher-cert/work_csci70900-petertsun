@@ -47,7 +47,12 @@ public class HashTable {
             buckets[index] = new Llist();
             buckets[index].addFront(hashCode, key, value);
         } else {    // link list buckets[index] is not empty
-            buckets[index].addFront(hashCode, key, value);
+            if (hasKey(key)){
+                int binIndex = buckets[index].search(key);
+                buckets[index].setValue(binIndex, value);
+            } else {
+                buckets[index].addFront(hashCode, key, value);
+            }
         }
     }
 

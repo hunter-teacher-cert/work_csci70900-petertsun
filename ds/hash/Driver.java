@@ -13,6 +13,7 @@ public class Driver {
         hmap.put("self-employ", "recursive");
         hmap.put("kind", "type");
         hmap.put("characteristic", "attribute");
+        hmap.put("characteristic", "field");
 
 
         System.out.println(hmap.toString());

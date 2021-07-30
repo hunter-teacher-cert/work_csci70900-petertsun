@@ -108,8 +108,8 @@ public class Llist{
   // sets the item at location index (starting
   // with 0) to value.
   // only sets if the index is within range
-  public void set(int index, String value){
-/*
+  public void setValue(int index, String value){
+
     int count = 0;
     Node currentNode = front;
     while (currentNode != null && count != index){
@@ -119,9 +119,8 @@ public class Llist{
 
     // once there, set the new data
     if (currentNode != null){
-      currentNode.setData(value);
+      currentNode.setValue(value);
     }
-*/
 
   }
 
