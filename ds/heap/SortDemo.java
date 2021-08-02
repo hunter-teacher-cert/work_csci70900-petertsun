@@ -108,8 +108,11 @@ data.add(15); */
 
   /*------------------------- HEAPSORT # 2 STUFF -----------------*/
 
-  // Basically the parameter index will always be set to 0.
-  // This is a leftover from for iteration loop method
+  // Basically the parameter index will always be set to 0 at the beginning.
+  // Recursive calls will have index to be greater and greater
+  // I think the arrList is a leftover from for iteration loop method
+  // the heapify method can change the instance variable instead of
+  // getting it through parameter
   // The design of this heapify method is purely recursive
   public void heapify(ArrayList<Integer> arrList, int index) {
       int leftIndex = 2 * index + 1;
